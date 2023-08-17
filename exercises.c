@@ -30,8 +30,9 @@ void reverseArray(int arr[], int size) {
   while (i < j) {
     int switchNum;
     switchNum = arr[i];
-    arr[j] = switchNum;
     arr[i] = arr[j];
+    arr[j] = switchNum;
+
     i++;
     j--;
   }
