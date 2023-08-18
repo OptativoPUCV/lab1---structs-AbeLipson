@@ -124,12 +124,12 @@ int checkSorted(int arr[], int size) {
       answer=-1;
     }
     else{
-      i++
+      i++;
     }
   }
   while(i<size && answer ==-1){
     if (arr[i]>arr[i+1]){
-      i++
+      i++;
     }
     else{
       answer = 0;
