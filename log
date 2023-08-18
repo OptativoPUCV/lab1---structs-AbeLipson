@@ -43,3 +43,9 @@ exercises.c:48:7: error: unused variable ‘i’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 a3573b9
+Fri 18 Aug 2023 01:11:18 AM UTC: 
+ exercises.c | 12 +++++-------
+ 1 file changed, 5 insertions(+), 7 deletions(-)
+ tests:  0|5
+total_score: 20/70
+b6fa6b0
