@@ -86,3 +86,14 @@ exercises.c:55:7: error: variable ‘newArr’ set but not used [-Werror=unused-
 cc1: all warnings being treated as errors
 Compilation failed
 ca906da
+Fri 18 Aug 2023 01:44:45 AM UTC: 
+ exercises.c | 12 ++++++++++--
+ 1 file changed, 10 insertions(+), 2 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:55:31: error: ‘count’ undeclared (first use in this function)
+   55 |   int *newArr = (int *)malloc(count * sizeof(int));
+      |                               ^~~~~
+exercises.c:55:31: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+5bc7273
