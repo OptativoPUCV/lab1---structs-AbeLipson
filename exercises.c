@@ -60,9 +60,8 @@ int *filterEvenNumbers(int arr[], int size, int *newSize) {
       evenPos++;
     }
   }
-  int *ptr = newArr;
 
-  return &ptr;
+  return NULL;
 }
 
 /*

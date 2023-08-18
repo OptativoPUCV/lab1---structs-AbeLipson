@@ -75,3 +75,14 @@ exercises.c:65:10: error: function returns address of local variable [-Werror=re
 cc1: all warnings being treated as errors
 Compilation failed
 1f45537
+Fri 18 Aug 2023 01:35:46 AM UTC: 
+ exercises.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:55:7: error: variable ‘newArr’ set but not used [-Werror=unused-but-set-variable]
+   55 |   int newArr[*newSize];
+      |       ^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+ca906da
