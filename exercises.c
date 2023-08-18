@@ -127,9 +127,10 @@ int checkSorted(int arr[], int size) {
       i++;
     }
   }
-  while(i<size && answer ==-1){
-    if (arr[i]>arr[i+1]){
-      i++;
+  int j = 0;
+  while(j<size && answer ==-1){
+    if (arr[j]>arr[j+1]){
+      j++;
     }
     else{
       answer = 0;
