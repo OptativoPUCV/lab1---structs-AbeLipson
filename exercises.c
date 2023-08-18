@@ -48,13 +48,21 @@ int *filterEvenNumbers(int arr[], int size, int *newSize) {
   int evenCount = 0;
   for (int i = 0; i < size; i++) {
     if (arr[i] % 2 == 0) {
-      arr[evenCount] = arr[i];
       evenCount++;
     }
   }
-  *newSize = evenCount;
 
-  return NULL;
+  int newArr[*newSize];
+  int evenPos = 0;
+  for (int i = 0; i < size; i++) {
+    if (arr[i] % 2 == 0) {
+      newArr[evenPos] = arr[i];
+      evenPos++;
+    }
+  }
+  int *ptr = newArr;
+
+  return ptr;
 }
 
 /*
