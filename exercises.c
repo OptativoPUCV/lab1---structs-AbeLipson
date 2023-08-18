@@ -119,7 +119,7 @@ y luego devuelva 1 si el arreglo está ordenado en orden ascendente,
 int checkSorted(int arr[], int size) { 
   int answer = 1;
   int i = 0;
-  while(i<size && answer ==1){
+  while(i<size-1 && answer ==1){
     if (arr[i]>arr[i+1]){
       answer=-1;
     }
@@ -128,7 +128,7 @@ int checkSorted(int arr[], int size) {
     }
   }
   int j = 0;
-  while(j<size && answer ==-1){
+  while(j<size-1 && answer ==-1){
     if (arr[j]>arr[j+1]){
       j++;
     }
