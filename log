@@ -189,3 +189,9 @@ exercises.c:134:12: error: suggest parentheses around assignment used as truth v
 cc1: all warnings being treated as errors
 Compilation failed
 84fbc2f
+Sat 19 Aug 2023 12:35:03 AM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  0|3
+total_score: 40/70
+b2088c3
