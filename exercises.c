@@ -202,7 +202,7 @@ Nodo *crearListaEnlazada(int arr[], int size) {
     }
     else{
       current -> siguente = newNode;
-      current = newNode
+      current = newNode;
     }
   }
 
