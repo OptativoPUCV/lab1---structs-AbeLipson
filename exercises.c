@@ -169,7 +169,7 @@ void inicializarLibro(Libro *libro, const char *titulo, const char *nombreAutor,
     libro->autor.anioNacimiento = anioNacimiento;
     libro->anioPublicacion = anioPublicacion;
 }
-}
+
 
 /*
 Ejercicio 7: Lista enlazada de números
