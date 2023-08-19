@@ -239,3 +239,24 @@ Sat 19 Aug 2023 12:48:52 AM UTC:
  tests:  0|1
 total_score: 60/70
 be63a66
+Sat 19 Aug 2023 01:08:36 AM UTC: 
+ exercises.c | 25 ++++++++++++++++++++++++-
+ 1 file changed, 24 insertions(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘crearListaEnlazada’:
+exercises.c:197:15: error: ‘Nodo’ {aka ‘struct nodo’} has no member named ‘siguente’; did you mean ‘siguiente’?
+  197 |     newNode ->siguente = NULL;
+      |               ^~~~~~~~
+      |               siguiente
+exercises.c:204:18: error: ‘Nodo’ {aka ‘struct nodo’} has no member named ‘siguente’; did you mean ‘siguiente’?
+  204 |       current -> siguente = newNode;
+      |                  ^~~~~~~~
+      |                  siguiente
+exercises.c:205:24: error: expected ‘;’ before ‘}’ token
+  205 |       current = newNode
+      |                        ^
+      |                        ;
+  206 |     }
+      |     ~                   
+Compilation failed
+0a6f3c1
